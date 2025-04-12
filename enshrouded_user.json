@@ -1,0 +1,4552 @@
+{
+	"version": 7,
+	"graphics": {
+		"fov": "4281ddb7"
+	},
+	"sound": {
+		"masterVolume": "3dd6db6e",
+		"musicVolume": "0",
+		"uiVolume": "1",
+		"gameVolume": "1",
+		"voiceVolume": "1",
+		"dynamicReverb": true
+	},
+	"input": {
+		"selectedKeyboardMousePresetId": "Custom",
+		"selectedGamepadPresetId": "PresetA",
+		"customInputBindings": {
+			"customKeyboardMouseBasePresetId": "PresetA",
+			"customGamepadBasePresetId": "PresetA",
+			"bindings": [
+				{
+					"gameplay": "MovementLeft",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "A",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Key",
+								"id": "Left",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "MovementRight",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "D",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Key",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "MovementUp",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "W",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Key",
+								"id": "Up",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "MovementDown",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "S",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Key",
+								"id": "Down",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraLeft",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseMove",
+								"id": "",
+								"axis": "NegativeX"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraRight",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseMove",
+								"id": "",
+								"axis": "PositiveX"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraUp",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseMove",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraDown",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseMove",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraZoomIn",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "PageUp",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Z",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CameraZoomOut",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "PageDown",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Z",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "MainhandAction",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Left",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ContextualAction",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "E",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CancelAction",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "AmmunitionSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "AmmunitionSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ShowTutorial",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "F1",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintDistanceIncrease",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Q",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintDistanceDecrease",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Q",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintMaterialSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "LeftControl",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintMaterialSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "LeftControl",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintPageSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "LeftAlt",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintPageSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "LeftAlt",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect0",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number1",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect1",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number2",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect2",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number3",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect3",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number4",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect4",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number5",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect5",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number6",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect6",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number7",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect7",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number8",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect8",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number9",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BlueprintShapeSelect9",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number0",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse0",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number1",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse1",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number2",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse2",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number3",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse3",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number4",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse4",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number5",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse5",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number6",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse6",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number7",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "QuickUse7",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Number8",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Block",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Evade",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "LeftControl",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Jump",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Space",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Glider",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Space",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Respawn",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "E",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Hold",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ShowActionbarWheel",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ShowEmoteWheel",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "X",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ActionbarSwapPage",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "LeftAlt",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Release",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ActionbarPreviousSlot",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "ActionbarNextSlot",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "SongSelectOpen",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "SongSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "SongSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingCameraMode",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "F",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingRotateLittleClockwise",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "R",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingRotateLittleCounterClockwise",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "R",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingRotateFarClockwise",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "R",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Tap",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingRotateFarCounterClockwise",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingTiltLeft",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "T",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingTiltRight",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "T",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingTiltForward",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "G",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingTiltBackward",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "G",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingDetailRotationMode",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "R",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingOffsetIncrease",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "PositiveY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Q",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingOffsetDecrease",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseWheel",
+								"id": "",
+								"axis": "NegativeY"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Q",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingDetailTranslationMode",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "Q",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingUndo",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Y",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingSnapping",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "X",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "BuildingUseMagicChests",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Right",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+								{
+									"type": "Key",
+									"id": "LeftControl",
+									"axis": "Invalid"
+								}
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "LockCombatTarget",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Tab",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "MouseButton",
+								"id": "Middle",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CombatTargetSelectPrevious",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "R",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "CombatTargetSelectNext",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "F",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "RangedCombatArm",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Q",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "RangedCombatShoot",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Sprint",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "LeftShift",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Sneak",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "C",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": true
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "VoiceChatPushToTalk",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "P",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiSystemMenu",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Escape",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiInGameMenu",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "I",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiBackpack",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "B",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiBuildingMenu",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Tab",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiCharacter",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "N",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiCrafting",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "V",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiJournal",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "J",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiJumpToNotification",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "K",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiMap",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "M",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiSkills",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "H",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiUserFeedback",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "F1",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiTextChat",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "Return",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Key",
+								"id": "KeyPad_Enter",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "UiSocial",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Key",
+								"id": "O",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				},
+				{
+					"gameplay": "Count",
+					"keyboardMouse": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					},
+					"gamepad": {
+						"primary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"secondary": {
+							"operation": {
+								"type": "Invalid",
+								"id": "",
+								"axis": "Invalid"
+							},
+							"modifiers": [
+							]
+						},
+						"modality": "Press",
+						"toggle": false
+					}
+				}
+			]
+		},
+		"mouse": {
+			"defaultSensitivity": "3f9a0a3d",
+			"rangedCombatSensitivity": "3e800000",
+			"invertCameraAxes": {
+				"x": false,
+				"y": false
+			},
+			"attackDirection": "UseCamera",
+			"enableSmoothing": false
+		},
+		"gamepad": {
+			"defaultSensitivity": "40100000",
+			"rangedCombatSensitivity": "3f000000",
+			"invertCameraAxes": {
+				"x": false,
+				"y": false
+			},
+			"attackDirection": "UseMovement",
+			"controllerButtonStyle": "Xbox"
+		}
+	},
+	"gameplay": {
+		"cameraZoomFactor": "3f2aaaab",
+		"enableIdleCameraTransition": true,
+		"reduceDynamicCameraMovement": false,
+		"screenShakeStrength": "1",
+		"displayDamageNumbers": true,
+		"displayDamagePropertyTexts": true,
+		"keepTargetLockWhenSprinting": true,
+		"breakTargetLockOnKill": false,
+		"hudAspectRatioWidth": 21,
+		"textScale": "1",
+		"useAdditionalSymbolsForItemRarity": false,
+		"minimizeTextChat": false,
+		"hideHUD": false,
+		"hideHelmet": false,
+		"hideGloves": false,
+		"showCharacterName": true,
+		"itemDeletionProtectionLevel": "Epic",
+		"hideSpiders": "Show"
+	},
+	"hostSettings": {
+		"maxSlots": 6,
+		"password": "",
+		"guests": {
+			"enable": false,
+			"password": ""
+		},
+		"friends": {
+			"enable": false,
+			"password": ""
+		},
+		"admins": {
+			"enable": true,
+			"password": "prost"
+		},
+		"communicationSetup": {
+			"voiceChatMode": "Proximity",
+			"isVoiceChatEnabled": true,
+			"isTextChatEnabled": true
+		}
+	},
+	"playedSessions": 64
+}
